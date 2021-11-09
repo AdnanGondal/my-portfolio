@@ -30,8 +30,9 @@ export const experiences = [
     dates: "Aug 2021 - Present",
     location: "London, UK",
     descriptions: [
-      "Full stack professional software engineering programme",
+      "Full stack professional software engineering programme; coding individually and as part of team",
       "Server side programming: Creating REST APIs with Node and Express",
+      "Frondend: Building professional designs using React and Tailwind. ",
     ],
   },
   {
