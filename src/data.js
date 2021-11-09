@@ -19,21 +19,42 @@ export const projects = [
   },
 ];
 
-export const testimonials = [
+export const experiences = [
   {
     quote:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/1.jpg",
-    name: "Jesse Hicks",
-    company: "Zoozle",
+    image:
+      "https://media-exp1.licdn.com/dms/image/C4E0BAQH7y-XevzCvbA/company-logo_200_200/0/1613595886761?e=2159024400&v=beta&t=3QZ1HGtXRIJt_S6kz2OYPznzxVg7eUhEb0r5rypGasQ",
+    role: "Junior Software Engineer",
+    company: "Sigma Labs",
+    dates: "Aug 2021 - Present",
+    location: "London, UK",
+    descriptions: [
+      "Full stack professional software engineering programme",
+      "Server side programming: Creating REST APIs with Node and Express",
+    ],
   },
   {
     quote:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/94.jpg",
-    name: "Ruben Alvarez",
-    company: "Dooble.io",
+    image:
+      "https://media-exp1.licdn.com/dms/image/C4E0BAQH7y-XevzCvbA/company-logo_200_200/0/1613595886761?e=2159024400&v=beta&t=3QZ1HGtXRIJt_S6kz2OYPznzxVg7eUhEb0r5rypGasQ",
+    role: "Coding Instructor",
+    company: "Fire Tech",
+    dates: "Aug 2021 - Present",
+    location: "Remote, UK",
+    descriptions: [
+      "Inspired children aged 9-17 to work with technology through the teaching of curricula that focuses on coding, creativity and innovation.",
+      "Required excellent communication, high energy and a strong attention to detail to ensure excellent outcomes for the students.",
+    ],
   },
 ];
 
-export const skills = ["JavaScript", "Tailwind", "React", "Node", "Express"];
+export const skills = [
+  "HTML, CSS and JavaScript",
+  "Node and Express",
+  "React",
+  "Deno",
+  "Tailwind",
+  "Relational Databases (SQlite, Postgres)",
+];
