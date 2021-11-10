@@ -11,13 +11,14 @@ export default function About() {
             Engineer.
           </h1>
           <p className="mb-8 leading-relaxed text-white">
-            Hello and welcome to my website! The aim of this website is to let
-            the rest of the world know what I am up to. Here I will showcase my
-            personal projects, professional experience and technical skills.
-            Feel free to get in touch with me if you would like to discuss
-            anything you see here. Currently I am open to opportunities that
-            involve open source contribution, hackathons and receiving and
-            giving mentorship.
+            Hello and welcome to my website! I am an Engineering Graduate from
+            Imperial College London and currently a Software developer based in
+            London. The aim of this website is to let the rest of the world know
+            what I am up to! Here I will showcase my personal projects,
+            professional experience and technical skills. Feel free to get in
+            touch with me if you would like to discuss anything you see here.
+            Currently I am open to opportunities that involve open source
+            contribution, hackathons and receiving and giving mentorship.
           </p>
           <div className="flex justify-center">
             <a

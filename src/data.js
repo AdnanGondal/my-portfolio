@@ -42,7 +42,7 @@ export const experiences = [
       "https://media-exp1.licdn.com/dms/image/C4E0BAQH7y-XevzCvbA/company-logo_200_200/0/1613595886761?e=2159024400&v=beta&t=3QZ1HGtXRIJt_S6kz2OYPznzxVg7eUhEb0r5rypGasQ",
     role: "Coding Instructor",
     company: "Fire Tech",
-    dates: "Aug 2021 - Present",
+    dates: "Apr 2019 - Aug 2021",
     location: "Remote, UK",
     descriptions: [
       "Inspired children aged 9-17 to work with technology through the teaching of curricula that focuses on coding, creativity and innovation.",
