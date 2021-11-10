@@ -15,12 +15,7 @@ export default function Experience() {
             <div className="p-4  w-full">
               <div className="h-full border-2 border-gray-800 border-opacity-100 p-8 rounded">
                 <div className="inline-flex items-center">
-                  {/* <img
-                    alt="testimonial"
-                    src={experience.image}
-                    className="w-12 rounded-full flex-shrink-0 object-cover object-center"
-                  /> */}
-                  <span className="flex-grow flex flex-col pl-4">
+                  <span className="flex-grow flex flex-col pl-4 mb-3">
                     <span className="title-font font-medium ">
                       {experience.role}
                     </span>
