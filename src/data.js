@@ -58,4 +58,8 @@ export const skills = [
   "Deno",
   "Tailwind",
   "Relational Databases (SQlite, Postgres)",
+  "Python",
+  "Tensorflow",
+  "Git / Github",
+  "Heroku",
 ];

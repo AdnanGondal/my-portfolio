@@ -4,10 +4,10 @@ import { experiences } from "../data";
 
 export default function Experience() {
   return (
-    <section id="testimonials">
+    <section id="experience">
       <div className="container px-5 py-10 mx-auto text-center">
         <UsersIcon className="w-10 inline-block mb-4" />
-        <h1 className="sm:text-4xl text-3xl font-medium title-font  mb-12">
+        <h1 className="sm:text-4xl text-3xl font-medium title-font  mb-6">
           Experience
         </h1>
         <div className="flex flex-wrap m-4">
