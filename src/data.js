@@ -3,7 +3,7 @@ export const projects = [
     title: "Save a Meal",
     subtitle: "React, Tailwind, Node, Express, Postgres",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "This project involved all aspects of the software engineering lifecycle; including design, implementation and testing. ",
     image:
       "https://user-images.githubusercontent.com/43793942/140721187-6f044142-ac0b-495d-997e-db9469225a0f.png",
     link: "https://github.com/BledarF/save-a-meal",
@@ -12,10 +12,10 @@ export const projects = [
     title: "World for Women",
     subtitle: "React, Bootstrap, Node, Express, Postgres",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "A dashboard app that uses data from the World Bank. The project involved creating a REST API using Node and Express, to provide data to a React frontend.",
     image:
       "https://github.com/gsinghlak12/worldbank/raw/main/User_Manual_images/01-HomePage.png",
-    link: "https://reactbootcamp.com",
+    link: "https://github.com/AdnanGondal/worldbank",
   },
 ];
 

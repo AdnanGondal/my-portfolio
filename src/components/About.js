@@ -4,21 +4,26 @@ export default function About() {
   return (
     <section id="about" className="bg-gray-900">
       <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
-        <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+        <div className="lg:flex-grow  lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
             Hi, I'm Adnan.
-            <br className="hidden lg:inline-block" />I am a curious and creative
+            <br className="hidden inline-block" /> I am a curious and creative
             Engineer.
           </h1>
           <p className="mb-8 leading-relaxed text-white">
-            Hello and welcome to my website! I am an Engineering Graduate from
-            Imperial College London and currently a software developer based in
-            London. The aim of this website is to let the rest of the world know
-            what I am up to! Here I will showcase my personal projects,
-            professional experience and technical skills. Feel free to get in
-            touch with me if you would like to discuss anything you see here.
-            Currently I am open to opportunities that involve open source
-            contributions, hackathons and receiving and giving mentorship.
+            Hello and welcome to my website! I am currently a software developer
+            based in London, and recently graduated with an engineering degree
+            from Imperial College. The aim of this website is to let the rest of
+            the world know what I am up to! I will showcase my personal
+            projects, professional experience and technical skills here. This is
+            just the first draft of my portfolio and I will continue to add more
+            features over time.
+          </p>
+          <p className="mb-8 leading-relaxed text-white">
+            Feel free to get in touch with me if you would like to discuss
+            anything you see here. Currently I am open to opportunities that
+            involve open source contributions, hackathons and receiving and
+            giving mentorship.
           </p>
           <div className="flex justify-center">
             <a

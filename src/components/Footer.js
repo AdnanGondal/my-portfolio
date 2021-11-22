@@ -4,6 +4,7 @@ import { FaGithubSquare } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
 export default function Footer() {
+  const ICON_SIZE = 36;
   return (
     <footer class="footer bg-white relative pt-1 border-b-2 border-blue-700 bg-gray-900 flex flex-col">
       <div class="container mx-auto pt-6">
@@ -12,7 +13,7 @@ export default function Footer() {
             <div class="flex flex-col mx-4">
               <a href="https://www.linkedin.com/in/adnan-gondal-2021/">
                 <span class="font-bold text-white uppercase mb-2 cursor-pointer">
-                  <FaLinkedin size={42} />
+                  <FaLinkedin size={ICON_SIZE} />
                 </span>{" "}
               </a>
               {/* <span class="my-2">
@@ -36,7 +37,7 @@ export default function Footer() {
               <a href="https://github.com/AdnanGondal">
                 {" "}
                 <span class="font-bold text-white uppercase mt-4 md:mt-0 mb-2 cursor-pointer">
-                  <FaGithubSquare size={42}></FaGithubSquare>
+                  <FaGithubSquare size={ICON_SIZE}></FaGithubSquare>
                 </span>
               </a>
 
@@ -59,7 +60,7 @@ export default function Footer() {
             <div class="flex flex-col mx-4">
               <a href="mailto:adnangondal1@hotmail.com">
                 <span class="font-bold text-white uppercase mt-4 md:mt-0 mb-2 cursor-pointer">
-                  <MdEmail size={42}></MdEmail>
+                  <MdEmail size={ICON_SIZE}></MdEmail>
                 </span>
               </a>
 
