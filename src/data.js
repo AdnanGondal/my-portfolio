@@ -32,7 +32,7 @@ export const experiences = [
     descriptions: [
       "Full stack professional software engineering programme; coding individually and as part of team",
       "Server side programming: Creating REST APIs with Node and Express",
-      "Frondend: Building professional designs using React and Tailwind. ",
+      "Frontend: Building professional designs using React and Tailwind. ",
     ],
   },
   {

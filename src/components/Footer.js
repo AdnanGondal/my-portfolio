@@ -5,11 +5,11 @@ import { MdEmail } from "react-icons/md";
 
 export default function Footer() {
   return (
-    <footer class="footer bg-white relative pt-1 border-b-2 border-blue-700 bg-gray-900">
+    <footer class="footer bg-white relative pt-1 border-b-2 border-blue-700 bg-gray-900 flex flex-col">
       <div class="container mx-auto pt-6">
         <div class="sm:flex sm:mt-8">
-          <div class="mt-8 sm:mt-0 sm:w-full sm:px-8 flex flex-col md:flex-row justify-around">
-            <div class="flex flex-col">
+          <div class="mt-8 sm:mt-0 sm:w-full sm:px-8 flex flex-row justify-center">
+            <div class="flex flex-col mx-4">
               <a href="https://www.linkedin.com/in/adnan-gondal-2021/">
                 <span class="font-bold text-white uppercase mb-2 cursor-pointer">
                   <FaLinkedin size={42} />
@@ -32,7 +32,7 @@ export default function Footer() {
               </span> */}
             </div>
 
-            <div class="flex flex-col">
+            <div class="flex flex-col mx-4">
               <a href="https://github.com/AdnanGondal">
                 {" "}
                 <span class="font-bold text-white uppercase mt-4 md:mt-0 mb-2 cursor-pointer">
@@ -56,7 +56,7 @@ export default function Footer() {
                 </a>
               </span> */}
             </div>
-            <div class="flex flex-col">
+            <div class="flex flex-col mx-4">
               <a href="mailto:adnangondal1@hotmail.com">
                 <span class="font-bold text-white uppercase mt-4 md:mt-0 mb-2 cursor-pointer">
                   <MdEmail size={42}></MdEmail>
