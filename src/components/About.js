@@ -11,13 +11,10 @@ export default function About() {
             Engineer.
           </h1>
           <p className="mb-8 leading-relaxed text-white">
-            Hello and welcome to my website! I am currently a software developer
-            based in London, and recently graduated with an engineering degree
-            from Imperial College. The aim of this website is to let the rest of
+            Hello and welcome to my website! I am currently a Software Engineer
+            based in London. The aim of this website is to let the rest of
             the world know what I am up to! I will showcase my personal
-            projects, professional experience and technical skills here. This is
-            just the first draft of my portfolio and I will continue to add more
-            features over time.
+            projects, professional experience and technical skills here. 
           </p>
           <p className="mb-8 leading-relaxed text-white">
             Feel free to get in touch with me if you would like to discuss
@@ -27,10 +24,10 @@ export default function About() {
           </p>
           <div className="flex justify-center">
             <a
-              href="https://adnangondal.github.io/WebCV/"
+              href="#Experience"
               className="inline-flex text-white bg-gray-700 border-0 py-2 px-6 focus:outline-none hover:bg-gray-500 rounded text-lg"
             >
-              Visit my CV
+              See my Experience
             </a>
             <a
               href="#projects"

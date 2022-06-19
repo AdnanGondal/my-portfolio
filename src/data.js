@@ -25,7 +25,7 @@ export const experiences = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
     image:
       "https://media-exp1.licdn.com/dms/image/C4E0BAQH7y-XevzCvbA/company-logo_200_200/0/1613595886761?e=2159024400&v=beta&t=3QZ1HGtXRIJt_S6kz2OYPznzxVg7eUhEb0r5rypGasQ",
-    role: "Junior Software Engineer",
+    role: "Software Engineer",
     company: "Sigma Labs",
     dates: "Aug 2021 - Present",
     location: "London, UK",
@@ -55,11 +55,13 @@ export const skills = [
   "HTML, CSS and JavaScript",
   "Node and Express",
   "React",
-  "Deno",
+  "Java Springboot",
   "Tailwind",
   "Relational Databases (SQlite, Postgres)",
   "Python",
   "Tensorflow",
+  "Scala Play",
+  "Mongo",
   "Git / Github",
   "Heroku",
 ];
