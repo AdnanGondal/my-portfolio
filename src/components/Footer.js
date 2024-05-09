@@ -87,7 +87,7 @@ export default function Footer() {
         <div class="mt-16 border-t-2 border-gray-300 flex flex-col items-center">
           <div class="sm:w-2/3 text-center py-6">
             <p class="text-sm text-white font-bold mb-2">
-              © 2021 by Adnan Gondal.
+              © 2024 by Adnan Gondal.
             </p>
           </div>
         </div>
