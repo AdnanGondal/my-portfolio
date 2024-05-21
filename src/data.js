@@ -115,3 +115,47 @@ export const skills = [
   "Mongo",
   "Git / Github",
 ];
+
+
+const webDevSkills = [
+  {
+    name: "HTML, CSS, JS",
+    logo: "./logo/htmlcss.png",
+  },
+  {
+    name: "React",
+    logo: "./logo/react.png"
+  },
+  {
+    name: "Typescript",
+    logo: "./logo/typescript.png"
+  },
+  {
+    name: "TailwindCSS",
+    logo: "./logo/tailwind.svg",
+  }
+]
+
+const backendSkills = [
+  {
+    name: "Java",
+    logo: "./logo/java.png",
+  },
+  {
+    name: "Spring Boot",
+    logo: "./logo/springboot.png"
+  },
+  {
+    name: "MySQL",
+    logo: "./logo/mysql.png"
+  },
+  {
+    name: "MongoDB",
+    logo: "./logo/mongo.svg"
+  }
+]
+export const skillsData = [
+  ...webDevSkills,
+  ...backendSkills
+  // Add more skills as needed
+];

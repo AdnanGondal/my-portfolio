@@ -6,7 +6,7 @@ export default function Navbar() {
     <header className=" top-0 z-10">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <a className="title-font font-medium  mb-4 md:mb-0">
-          <a href="#about" className="ml-3 text-xl">
+          <a href="#about" className="ml-3 text-3xl">
             Adnan Gondal
           </a>
         </a>
