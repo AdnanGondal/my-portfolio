@@ -154,8 +154,47 @@ const backendSkills = [
     logo: "./logo/mongo.svg"
   }
 ]
+
+const microserviceSkills = [
+  {
+    name: "RabbitMQ",
+    logo: "./logo/rabbitmq.png"
+  },
+  {
+    name: "Docker",
+    logo: "./logo/docker.png"
+  },
+  {
+    name: "Jenkins",
+    logo: "./logo/jenkins.png"
+  },
+  {
+    name: "Monitoring (ELK)",
+    logo: "./logo/elk.svg"
+  }
+]
+
+const toolingSKills = [
+  {
+    name: "Cloud Technologies",
+    logo: "./logo/aws.png"
+  },
+  {
+    name: "Unix Shell",
+    logo: "./logo/unix.jpeg"
+  },
+  {
+    name: "Git / Github",
+    logo: "./logo/git.png"
+  },
+  {
+    name: "Jira and Confluence",
+    logo: "./logo/atlassian.png"
+  }
+]
 export const skillsData = [
   ...webDevSkills,
-  ...backendSkills
-  // Add more skills as needed
+  ...backendSkills,
+  ...microserviceSkills,
+  ...toolingSKills
 ];
