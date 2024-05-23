@@ -1,4 +1,44 @@
-export const projects = [
+
+export const professionalProjects = [
+  {
+    title: "New Computerised Transit System",
+    subtitle: "Scala, Play, HTML, CSS, MongoDB, Github",
+    description:
+      "Building the digital frontend for traders to move goods between Common Transit Convention member countries.",
+    image:
+      "./ncts5-proj.png",
+    link: "https://github.com/hmrc/manage-transit-movements-unloading-frontend",
+  },
+  {
+    title: "One Stop Shop Core",
+    subtitle: "Java, Spring Boot, RabbitMQ, MySQL, Docker, Jenkins, Kibana, Elasticsearch",
+    description:
+      "Built APIs to enable trades of B2C goods between Northern Ireland and EU member states.",
+    image:
+      "./oss-proj.png",
+    link: "https://www.gov.uk/government/publications/eu-e-commerce-package/eu-vat-e-commerce-package",
+  },
+  {
+    title: "Income Tax Subdomain",
+    subtitle: "Java, Spring Boot, Gitlab, MongoDB, MySQL, Docker",
+    description:
+      "Delivered a range of dataset, calculation and functionality APIs to the software industry to enable them to develop accounting software.",
+    image:
+      "./itsd-proj.png",
+    link: "https://developer.service.hmrc.gov.uk/guides/income-tax-mtd-end-to-end-service-guide/#income-tax-making-tax-digital-end-to-end-service-guide",
+  }
+];
+
+export const practiceProjects = [
+  {
+    title: "City Driving School",
+    subtitle: "NextJS, Tailwind",
+    description:
+      "Designed and built a Statically Generated (SG) website for a driving instructor based in London.",
+    image:
+      "./cds-project.png",
+    link: "https://github.com/AdnanGondal/city-driving-school",
+  },
   {
     title: "Save a Meal",
     subtitle: "React, Tailwind, Node, Express, Postgres",
@@ -19,12 +59,27 @@ export const projects = [
   },
 ];
 
+
+
 export const experiences = [
   {
-    quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
     image:
       "https://media-exp1.licdn.com/dms/image/C4E0BAQH7y-XevzCvbA/company-logo_200_200/0/1613595886761?e=2159024400&v=beta&t=3QZ1HGtXRIJt_S6kz2OYPznzxVg7eUhEb0r5rypGasQ",
+    role: "Software Engineer",
+    company: "EY (Ernst & Young)",
+    dates: "Jan 2022 - Present",
+    location: "London, UK",
+    descriptions: [
+      "Develop and maintain RESTful APIs for government client with over 90% test coverage using Java 17 and the Spring Boot framework",
+      "Working within a microservices architecture comprising over 20 applications, implementing asynchronous messaging with RabbitMQ and using MySQL for data storage",
+      "Proficiently work with a Linux operating system, Jenkins for CI/CD pipelines, Docker for containerisation, Kibana for monitoring, Gitlab for source control",
+      "Collaborate with the business team and customers to design and create technical specifications, database schemas and activity diagrams for internal and external use",
+      "Actively contribute to agile ceremonies, pair programming, code reviews and mentoring junior developers in the team, enabling improved team productivity and code quality"
+    ],
+  },
+  {
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/3/34/EY_logo_2019.svg",
     role: "Software Engineer",
     company: "Sigma Labs",
     dates: "Aug 2021 - Present",
@@ -36,8 +91,6 @@ export const experiences = [
     ],
   },
   {
-    quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
     image:
       "https://media-exp1.licdn.com/dms/image/C4E0BAQH7y-XevzCvbA/company-logo_200_200/0/1613595886761?e=2159024400&v=beta&t=3QZ1HGtXRIJt_S6kz2OYPznzxVg7eUhEb0r5rypGasQ",
     role: "Coding Instructor",
@@ -55,13 +108,93 @@ export const skills = [
   "HTML, CSS and JavaScript",
   "Node and Express",
   "React",
-  "Java Springboot",
+  "Java Spring Boot",
   "Tailwind",
-  "Relational Databases (SQlite, Postgres)",
-  "Python",
-  "Tensorflow",
+  "Relational Databases (mySQL, Postgres)",
   "Scala Play",
   "Mongo",
   "Git / Github",
-  "Heroku",
+];
+
+
+const webDevSkills = [
+  {
+    name: "HTML, CSS, JS",
+    logo: "./logo/htmlcss.png",
+  },
+  {
+    name: "React",
+    logo: "./logo/react.png"
+  },
+  {
+    name: "Typescript",
+    logo: "./logo/typescript.png"
+  },
+  {
+    name: "TailwindCSS",
+    logo: "./logo/tailwind.svg",
+  }
+]
+
+const backendSkills = [
+  {
+    name: "Java",
+    logo: "./logo/java.png",
+  },
+  {
+    name: "Spring Boot",
+    logo: "./logo/springboot.png"
+  },
+  {
+    name: "MySQL",
+    logo: "./logo/mysql.png"
+  },
+  {
+    name: "MongoDB",
+    logo: "./logo/mongo.svg"
+  }
+]
+
+const microserviceSkills = [
+  {
+    name: "RabbitMQ",
+    logo: "./logo/rabbitmq.png"
+  },
+  {
+    name: "Docker",
+    logo: "./logo/docker.png"
+  },
+  {
+    name: "Jenkins",
+    logo: "./logo/jenkins.png"
+  },
+  {
+    name: "Monitoring (ELK)",
+    logo: "./logo/elk.svg"
+  }
+]
+
+const toolingSKills = [
+  {
+    name: "Cloud Technologies",
+    logo: "./logo/aws.png"
+  },
+  {
+    name: "Unix Shell",
+    logo: "./logo/unix.jpeg"
+  },
+  {
+    name: "Git / Github",
+    logo: "./logo/git.png"
+  },
+  {
+    name: "Jira and Confluence",
+    logo: "./logo/atlassian.png"
+  }
+]
+export const skillsData = [
+  ...webDevSkills,
+  ...backendSkills,
+  ...microserviceSkills,
+  ...toolingSKills
 ];
