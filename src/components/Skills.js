@@ -13,7 +13,7 @@ export default function Skills() {
           </h1>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
             I am a full-stack developer with a wealth of professional and project experience.
-            I am well-versed in the modern JavaScript landscape, using technologies such as TypeScript, React, and Tailwind to create impactful user experiences. Additionally, I have built cloud-native microservices using Java Spring Boot and other associated technologies.
+            I am well-versed in the modern JavaScript landscape, using technologies such as Typescript, React, and Tailwind to create impactful user experiences. Additionally, I have built cloud-native microservices using Java Spring Boot and other associated technologies.
           </p>
         </div>
         <div className="flex justify-center">

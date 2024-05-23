@@ -4,7 +4,7 @@ export const professionalProjects = [
     title: "New Computerised Transit System",
     subtitle: "Scala, Play, HTML, CSS, MongoDB, Github",
     description:
-      "Building the digital frontend for traders to move goods between Common Transit Convention member countries",
+      "Building the digital frontend for traders to move goods between Common Transit Convention member countries.",
     image:
       "./ncts5-proj.png",
     link: "https://github.com/hmrc/manage-transit-movements-unloading-frontend",
@@ -34,7 +34,7 @@ export const practiceProjects = [
     title: "City Driving School",
     subtitle: "NextJS, Tailwind",
     description:
-      "Designed and built a live website for a drivign instructor based in London. ",
+      "Designed and built a Statically Generated (SG) website for a driving instructor based in London.",
     image:
       "./cds-project.png",
     link: "https://github.com/AdnanGondal/city-driving-school",
